@@ -1,0 +1,105 @@
+header{
+display: flex;
+justify-content: space-between;
+align-items: center;
+border-radius: 18px;
+}
+a{
+    color: coral;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: solid black;
+    border-radius: 15px;
+    margin-right: 12px;
+    padding: 10px;
+    border: none;
+}
+a:hover{
+    color: skyblue;
+    background-color: red;
+}
+div.contact{
+    height: 400px;
+    width: 500px;
+    margin: 100px auto;
+    box-shadow: 5px 5px 30px 5px rgb(194, 166, 6);
+    background-color: papayawhip;
+    border-radius: 20px;
+}
+form{
+    padding-top: 50px;
+    padding-left: 100px;
+    color: rgb(88, 119, 57);
+}
+input{
+    padding: 5px;
+    margin: 5px;
+}
+button{
+    border:5px solid red;
+    border-radius: 10px;
+    background-color: pink;
+    padding: 7px;
+    border: none;
+    cursor: pointer;
+}
+body{
+    background-color: rgba(253, 248, 239, 0.932);
+}
+div.home{
+    height: 400px;
+    width: 900px;
+    margin: 100px auto;
+    box-shadow: 5px 5px 30px 5px rgb(20, 37, 187);
+    background-color:rgba(2, 0, 0, 0.993);
+}
+div.mine{
+    color: whitesmoke;
+    margin-left: 20px;
+}
+body.contact{
+    background-color: rgb(12, 10, 10);
+}
+.img{
+    width: 230px;
+    position: absolute;
+    right: 14.5em;
+    bottom: 10em;
+}
+#img{
+    height: 400px;
+    width: 250px;
+    position: relative;
+    bottom: 42em;
+    left: 68em;
+}
+nav.about{
+    width: 400px;
+    margin-left: 20px;
+}
+#about{
+    width: 400px;
+    margin-left: 20px;
+}
+body.about{
+    background-color: rgba(123, 119, 156, 0.911);
+}
+nav.about h1, h2, h3{
+    text-decoration: underline;
+}
+nav#about{
+    position: relative;
+    left: 18em;
+    bottom: 11em;
+}
+    @media (max-width:600px){
+        .img{
+            position: relative;
+            left: 40.5em;
+            bottom: 17em;
+        }
+    }
+    video{
+        height: 400px;
+        width: 400px;
+    }
